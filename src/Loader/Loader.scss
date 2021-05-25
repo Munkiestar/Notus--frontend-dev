@@ -1,0 +1,16 @@
+.loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #081b2f;
+
+  &__img {
+    width: 10.5rem;
+
+    @media (max-width: 768px) {
+      height: 6rem;
+    }
+  }
+}

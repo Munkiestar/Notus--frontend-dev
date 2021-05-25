@@ -20,7 +20,7 @@ function ImageSlider() {
   };
 
   return (
-    <div className="slider">
+    <section className="slider">
       <h1 className="slider__title">Notus Frontend test</h1>
 
       <Slider {...settings}>
@@ -34,7 +34,7 @@ function ImageSlider() {
           <img src={img3} alt="" />
         </div>
       </Slider>
-    </div>
+    </section>
   );
 }
 

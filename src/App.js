@@ -2,6 +2,8 @@ import "./App.css";
 
 import Loader from "./Loader/Loader";
 import ImageSlider from "./Slider/Slider";
+import ImageGallery from "./FixedGallery/ImageGallery";
+
 import { useEffect, useState } from "react";
 
 function App() {
@@ -19,7 +21,12 @@ function App() {
   return (
     <div className="app">
       {isLoading && <Loader />}
-      {!isLoading && <ImageSlider />}
+      {!isLoading && (
+        <>
+          <ImageSlider />
+          <ImageGallery />
+        </>
+      )}
     </div>
   );
 }

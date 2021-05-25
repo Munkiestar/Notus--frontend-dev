@@ -7,7 +7,7 @@ import logo from "../assets/logo-loading.svg";
 
 function Loader() {
   return (
-    <div className="loader">
+    <section className="loader">
       <motion.img
         className="loader__img"
         src={logo}
@@ -26,7 +26,7 @@ function Loader() {
           repeatType: 1,
         }}
       />
-    </div>
+    </section>
   );
 }
 

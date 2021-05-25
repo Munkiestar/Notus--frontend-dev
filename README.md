@@ -1,6 +1,6 @@
-# Notus Frontend Test
+# Notus - Frontend Test
 
-<hr style="border: 1px solid gray" /> 
+
 
 ## Tasks:
 
@@ -54,9 +54,17 @@ taskova.
 <hr style="border: 1px solid gray" /> 
 
 ### Technology I use:
-
-- Motion API for animation  [Link](https://www.framer.com/api/motion/)
 - Sass
+- Hooks
+
+Task 1: 
+- Motion API for animation  [Link](https://www.framer.com/api/motion/)
+
+<br/>
+
+Task 2:
+- React Slick-carousel
+[Link](https://github.com/akiran/react-slick)
 
 <hr style="border: 1px solid gray" /> 
 

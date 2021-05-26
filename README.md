@@ -1,5 +1,8 @@
 # Notus - Frontend Test
 
+<br>
+
+![Notus](./src/assets/notus.gif)
 
 
 ## Tasks:

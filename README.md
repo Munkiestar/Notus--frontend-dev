@@ -4,6 +4,7 @@
 
 ![Notus](./src/assets/notus.gif)
 
+<br>
 
 ## Tasks:
 
@@ -63,7 +64,7 @@ taskova.
 - Motion API for animation  [Link](https://www.framer.com/api/motion/)
 - React Scroll [Link](https://www.npmjs.com/package/react-scroll)
 - Google Maps [Link](https://www.npmjs.com/package/@react-google-maps/api)
-- dotenv-webpack plugin for .env variables [Link](npm i --save-dev dotenv)
+- dotenv for .env variables [Link](https://www.npmjs.com/package/dotenv-webpack)
 
 <br/>
 

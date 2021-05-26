@@ -1,10 +1,11 @@
-import "./App.css";
+import "./App.scss";
 
 import Loader from "./components/Loader/Loader";
 import ImageSlider from "./components/Slider/Slider";
 import ImageGallery from "./components/FixedGallery/ImageGallery";
 
 import { useEffect, useState } from "react";
+import Map from "./components/GoogleMap/Map";
 
 function App() {
   // state variables
@@ -25,6 +26,9 @@ function App() {
         <>
           <ImageSlider />
           <ImageGallery />
+          <>
+            <Map />
+          </>
         </>
       )}
     </div>

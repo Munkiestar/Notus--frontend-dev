@@ -59,6 +59,8 @@ taskova.
 - React Slick-carousel [Link](https://github.com/akiran/react-slick)
 - Motion API for animation  [Link](https://www.framer.com/api/motion/)
 - React Scroll [Link](https://www.npmjs.com/package/react-scroll)
+- Google Maps [Link](https://www.npmjs.com/package/@react-google-maps/api)
+- dotenv-webpack plugin for .env variables [Link](npm i --save-dev dotenv)
 
 <br/>
 

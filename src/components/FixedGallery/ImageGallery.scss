@@ -1,8 +1,9 @@
 .gallery {
   width: 100%;
+
   max-width: 60rem;
-  height: 100vh;
-  margin: auto;
+  height: 100%;
+  margin: 0 auto 10rem;
 
   &__description {
     text-align: center;

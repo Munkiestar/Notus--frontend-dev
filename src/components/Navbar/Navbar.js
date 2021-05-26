@@ -36,7 +36,12 @@ function Navbar(props) {
             </Link>
           </li>
           <li className="navbar__link">
-            <Link to="" spy={true} smooth={true} onClick={handleMenuIconChange}>
+            <Link
+              to="imgGallery"
+              spy={true}
+              smooth={true}
+              onClick={handleMenuIconChange}
+            >
               TASK 4
             </Link>
           </li>

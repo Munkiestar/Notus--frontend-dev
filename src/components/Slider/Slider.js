@@ -21,22 +21,24 @@ function ImageSlider() {
   };
 
   return (
-    <section className="slider">
-      <Navbar />
-      <h1 className="slider__title">Notus Frontend test</h1>
+    <div className="slider__wrap">
+      <section className="slider">
+        <Navbar />
+        <h1 className="slider__title">Notus Frontend test</h1>
 
-      <Slider {...settings}>
-        <div className="slider__wrap">
-          <img src={img1} alt="" />
-        </div>
-        <div className="slider__wrap">
-          <img src={img2} alt="" />
-        </div>
-        <div className="slider__wrap">
-          <img src={img3} alt="" />
-        </div>
-      </Slider>
-    </section>
+        <Slider {...settings}>
+          <div className="slider__wrap">
+            <img src={img1} alt="" />
+          </div>
+          <div className="slider__wrap">
+            <img src={img2} alt="" />
+          </div>
+          <div className="slider__wrap">
+            <img src={img3} alt="" />
+          </div>
+        </Slider>
+      </section>
+    </div>
   );
 }
 

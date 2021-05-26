@@ -1,0 +1,38 @@
+.imgGallery {
+  height: 60rem;
+  max-height: 100%;
+  background-color: #081b2f;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+
+  &__container {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+  }
+
+  &__wrap {
+    img {
+      object-fit: cover;
+      width: 98%;
+      height: 100%;
+      padding: 0.5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    height: 30rem;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 1.6rem;
+  }
+
+  .slick-prev {
+    left: -38px;
+  }
+}

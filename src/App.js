@@ -5,6 +5,7 @@ import ImageSlider from "./components/Slider/Slider";
 import ImageGallery from "./components/FixedGallery/ImageGallery";
 import Map from "./components/GoogleMap/Map";
 import Footer from "./components/Footer/Footer";
+import SliderGallery from "./components/SliderGallery/SliderGallery";
 
 import { useEffect, useState } from "react";
 
@@ -27,6 +28,7 @@ function App() {
         <>
           <ImageSlider />
           <ImageGallery />
+          <SliderGallery />
           <Map />
           <Footer />
         </>

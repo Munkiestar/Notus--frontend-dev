@@ -56,15 +56,12 @@ taskova.
 ### Technology I use:
 - Sass
 - Hooks
-
-Task 1: 
+- React Slick-carousel [Link](https://github.com/akiran/react-slick)
 - Motion API for animation  [Link](https://www.framer.com/api/motion/)
+- React Scroll [Link](https://www.npmjs.com/package/react-scroll)
 
 <br/>
 
-Task 2:
-- React Slick-carousel
-[Link](https://github.com/akiran/react-slick)
 
 <hr style="border: 1px solid gray" /> 
 

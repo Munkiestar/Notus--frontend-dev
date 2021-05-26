@@ -2,14 +2,14 @@ import React from "react";
 
 import "./ImageGallery.scss";
 
-import img1 from "../assets/task3-img1.jpg";
-import img2 from "../assets/task3-img2.jpg";
-import img3 from "../assets/task3-img3.jpg";
-import img4 from "../assets/task3-img4.jpg";
+import img1 from "../../assets/task3-img1.jpg";
+import img2 from "../../assets/task3-img2.jpg";
+import img3 from "../../assets/task3-img3.jpg";
+import img4 from "../../assets/task3-img4.jpg";
 
 function ImageGallery() {
   return (
-    <section className="gallery">
+    <section className="gallery" id="gallery">
       <div className="gallery__description">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet

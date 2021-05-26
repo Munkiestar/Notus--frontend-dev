@@ -1,14 +1,14 @@
 import "./App.css";
 
-import Loader from "./Loader/Loader";
-import ImageSlider from "./Slider/Slider";
-import ImageGallery from "./FixedGallery/ImageGallery";
+import Loader from "./components/Loader/Loader";
+import ImageSlider from "./components/Slider/Slider";
+import ImageGallery from "./components/FixedGallery/ImageGallery";
 
 import { useEffect, useState } from "react";
 
 function App() {
   // state variables
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   // setting a Loader to show for a 2 seconds
   useEffect(() => {

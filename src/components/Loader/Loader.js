@@ -3,7 +3,7 @@ import "./Loader.scss";
 
 import { motion } from "framer-motion";
 
-import logo from "../assets/logo-loading.svg";
+import logo from "../../assets/logo-loading.svg";
 
 function Loader() {
   return (
